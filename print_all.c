@@ -1,7 +1,7 @@
 #include "monty.h"
 
 /**
- * f_pall - prints stack
+ * f_pall - function that prints stack
  * @head: stack head
  * Olatunji and Goodnews
  * @counter: not used
@@ -16,9 +16,11 @@ stack_t *h;
 h = *head;
 if (h == NULL)
 return;
+
 while (h)
 {
 printf("%d\n", h->n);
 h = h->next;
 }
+
 }
