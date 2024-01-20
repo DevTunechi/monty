@@ -97,5 +97,6 @@ stack_t *add_dnodeint(stack_t **head, const int n);
 void free_dlistint(stack_t *head);
 
 void free_vglo(void);
+void mul_op(stack_t **stack, unsigned int line_number);
 
 #endif
