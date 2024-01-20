@@ -22,5 +22,4 @@ while (h)
 printf("%d\n", h->n);
 h = h->next;
 }
-
 }
