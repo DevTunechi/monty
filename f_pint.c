@@ -2,7 +2,7 @@
 
 /**
  * f_pint - function that prints the top
- * @head: stack head
+ * @head: the stack head
  * Olatunji and Goodnews
  * @counter: line num
  * Return: nothing
@@ -18,7 +18,5 @@ free(bus.content);
 free_stack(*head);
 exit(EXIT_FAILURE);
 }
-
 printf("%d\n", (*head)->n);
-
 }
