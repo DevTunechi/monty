@@ -1,6 +1,6 @@
 #include "monty.h"
 /**
- * f_add - adds top 2 elements of the stack
+ * f_add - Function that adds top 2 elements of the stack
  * Olatunji and Goodnews
  * @head: stack head
  * @counter: line_number
@@ -26,6 +26,7 @@ free(bus.content);
 free_stack(*head);
 exit(EXIT_FAILURE);
 }
+
 h = *head;
 aux = h->n + h->next->n;
 h->next->n = aux;
