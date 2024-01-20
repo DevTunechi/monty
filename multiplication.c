@@ -1,7 +1,7 @@
 #include "monty.h"
 
 /**
- * f_mul - multiplies top two elements of stack
+ * f_mul - function that multiplies top two elements of stack
  * Olatunji and Goodnews
  * @head: stack head
  * @counter: line_number
@@ -19,6 +19,7 @@ while (h)
 h = h->next;
 len++;
 }
+
 if (len < 2)
 {
 fprintf(stderr, "L%d: can't mul, stack too short\n", counter);
@@ -27,6 +28,7 @@ free(bus.content);
 free_stack(*head);
 exit(EXIT_FAILURE);
 }
+
 h = *head;
 aux = h->next->n * h->n;
 h->next->n = aux;
