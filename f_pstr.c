@@ -1,7 +1,7 @@
 #include "monty.h"
 
 /**
- * f_pstr - prints string starting at top of stack
+ * f_pstr - function that prints string starting at top of stack
  * @head: stack head
  * @counter: line num
  * Return: nothing
@@ -22,5 +22,7 @@ break;
 printf("%c", h->n);
 h = h->next;
 }
+
 printf("\n");
+
 }

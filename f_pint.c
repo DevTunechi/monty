@@ -1,8 +1,8 @@
 #include "monty.h"
 
 /**
- * f_pint - prints the top
- * @head: stack head
+ * f_pint - function that prints the top
+ * @head: the stack head
  * Olatunji and Goodnews
  * @counter: line num
  * Return: nothing

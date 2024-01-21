@@ -1,7 +1,7 @@
 #include "monty.h"
 
 /**
-* execute - executes opcode
+* execute - function to executes opcode
 * @stack: linked list - stack
 * Olatunji and Goodnews
 * @counter: line_counter

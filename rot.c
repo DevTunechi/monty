@@ -1,7 +1,7 @@
 #include "monty.h"
 
 /**
- * f_rotl- rotates the stack to the top
+ * f_rotl- function that rotates the stack to the top
  * @head: stack head
  * Olatunji and Goodnews
  * @counter: line_number
@@ -18,10 +18,12 @@ return;
 }
 aux = (*head)->next;
 aux->prev = NULL;
+
 while (tmp->next != NULL)
 {
 tmp = tmp->next;
 }
+
 tmp->next = *head;
 (*head)->next = NULL;
 (*head)->prev = tmp;

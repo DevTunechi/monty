@@ -1,7 +1,7 @@
 #include "monty.h"
 
 /**
- * f_mod - computes rest of division of the second
+ * f_mod -  function that computes rest of division of the second
  * top element of stack by top element of stack
  * Olatunji and Goodnews
  * @head: stack head
@@ -28,6 +28,7 @@ free(bus.content);
 free_stack(*head);
 exit(EXIT_FAILURE);
 }
+
 h = *head;
 if (h->n == 0)
 {
@@ -37,6 +38,7 @@ free(bus.content);
 free_stack(*head);
 exit(EXIT_FAILURE);
 }
+
 aux = h->next->n % h->n;
 h->next->n = aux;
 *head = h->next;

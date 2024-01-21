@@ -1,7 +1,7 @@
 #include "monty.h"
 
 /**
- * f_mul - multiplies top two elements of stack
+ * f_mul - function that multiplies top two elements of stack
  * Olatunji and Goodnews
  * @head: stack head
  * @counter: line_number

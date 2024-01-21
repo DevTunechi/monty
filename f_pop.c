@@ -1,7 +1,7 @@
 #include "monty.h"
 
 /**
- * f_pop - prints the top
+ * f_pop - function that prints the top
  * @head: stack head
  * Olatunji and Goodnews
  * @counter: line_number
@@ -20,6 +20,7 @@ free(bus.content);
 free_stack(*head);
 exit(EXIT_FAILURE);
 }
+
 h = *head;
 *head = h->next;
 free(h);

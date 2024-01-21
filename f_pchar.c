@@ -1,7 +1,7 @@
 #include "monty.h"
 
 /**
- * f_pchar - prints char at top of stack
+ * f_pchar - ifunction that prints char at top of stack
  * followed by a new line
  * Olatunji and Goodnews
  * @head: stack head
@@ -14,6 +14,7 @@ void f_pchar(stack_t **head, unsigned int counter)
 stack_t *h;
 
 h = *head;
+
 if (!h)
 {
 fprintf(stderr, "L%d: can't pchar, stack empty\n", counter);
@@ -30,5 +31,6 @@ free(bus.content);
 free_stack(*head);
 exit(EXIT_FAILURE);
 }
+
 printf("%c\n", h->n);
 }
